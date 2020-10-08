@@ -5,16 +5,17 @@
 
     justify-content: space-between;
     align-items: center;
-    padding:20px;
+    padding:10px;
 }
-.flashIcon{
+.thunder__image{
 
-    color:rgb(245, 245, 26);
+height: 40px;
 }
 .moreicon{
     color:white;
-    background-color:green;
-    border-radius: 999px;
+    padding: 3px;
+    background-color:rgb(2, 131, 2);
+    border-radius: 50%;
 }
 .avatar{
      color:white;

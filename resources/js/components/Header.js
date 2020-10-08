@@ -1,24 +1,27 @@
 import React from 'react'
 import './Header.css'
-import FlashOnIcon from '@material-ui/icons/FlashOn';
 import PersonIcon from '@material-ui/icons/Person';
 import MoreHorizIcon from '@material-ui/icons/MoreHoriz';
+import { IconButton } from '@material-ui/core';
 function Header() {
     return (
         <div className="header">
+     <IconButton >
      <div className="avatar">
-
          <PersonIcon fontSize="large" />
      </div>
+         </IconButton>
 
-        <div className="flashIcon">
-
-        <FlashOnIcon fontSize="large" />
+        <IconButton>
+        <div>
+       <img  className="thunder__image" src="img/thunder logo.png" />
         </div>
+       </IconButton>
+        <IconButton>
         <div className="moreicon">
         <MoreHorizIcon fontSize="large"/>
-
         </div>
+</IconButton>
 
         </div>
     )
