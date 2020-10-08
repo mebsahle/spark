@@ -6,8 +6,10 @@ import MoreHorizIcon from '@material-ui/icons/MoreHoriz';
 function Header() {
     return (
         <div className="header">
+     <div className="avatar">
 
-         <PersonIcon style={{ fontSize: 40, color:'white'}} />
+         <PersonIcon fontSize="large" />
+     </div>
 
         <div className="flashIcon">
 

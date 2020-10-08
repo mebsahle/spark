@@ -12100,7 +12100,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".header{\n    display: flex;\n    border-bottom: 1px solid lightgray;\n    background-color: #fe2c54;\n\n    justify-content: space-between;\n    align-items: center;\n    padding:20px;\n}\n.flashIcon{\n\n    color:rgb(245, 245, 26);\n}\n.moreicon{\n    color:white;\n    background-color:green;\n    border-radius: 999px;\n}\n", ""]);
+exports.push([module.i, ".header{\n    display: flex;\n    border-bottom: 1px solid lightgray;\n    background-color: #fe2c54;\n\n    justify-content: space-between;\n    align-items: center;\n    padding:20px;\n}\n.flashIcon{\n\n    color:rgb(245, 245, 26);\n}\n.moreicon{\n    color:white;\n    background-color:green;\n    border-radius: 999px;\n}\n.avatar{\n     color:white;\n}\n", ""]);
 
 // exports
 
@@ -77024,12 +77024,11 @@ __webpack_require__.r(__webpack_exports__);
 function Header() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "header"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "avatar"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_icons_Person__WEBPACK_IMPORTED_MODULE_3___default.a, {
-    style: {
-      fontSize: 40,
-      color: 'white'
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    fontSize: "large"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "flashIcon"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_icons_FlashOn__WEBPACK_IMPORTED_MODULE_2___default.a, {
     fontSize: "large"
