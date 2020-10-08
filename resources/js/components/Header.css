@@ -1,0 +1,18 @@
+.header{
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    background-color: #fe2c54;
+
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+}
+.flashIcon{
+
+    color:rgb(245, 245, 26);
+}
+.moreicon{
+    color:white;
+    background-color:green;
+    border-radius: 999px;
+}
