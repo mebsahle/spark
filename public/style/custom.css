@@ -1,0 +1,17 @@
+*{
+    margin:0;
+
+}
+.spark__logo{
+    color: rgb(255, 255, 23);
+    font-size: xx-large;
+    background-color: rgb(88, 88, 88);
+    border-radius: 5px;
+    padding: 5px;
+    margin: auto;
+
+
+}
+.container{
+    padding: 10px;
+}
